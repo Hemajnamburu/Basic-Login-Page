@@ -1,0 +1,37 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle, white ,gray, black );
+    background-repeat: no-repeat;
+}
+.box{
+    width: 300px;
+    background-color: black;
+    margin: 50px auto;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+input{
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    padding: 15px 10px;
+    border-radius: 24px;
+    background: none;
+}
+h1{
+    margin:20px auto;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+input[type= "text"], input[type="password"]{
+    border: 2px solid skyblue;
+}
+input[type = "submit"]
+{
+    border: 2px solid burlywood;
+    color:white;
+    cursor: pointer;
+}
